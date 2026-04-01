@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background-color: #00277c;
+}
+
+h1 {
+  color: #45d93d;
+}
+
+
+h2 {
+  color: #ff0004;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #ff00c3;
+  color: white;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+}
+
+.answer {
+  margin-top: 75px;
+  color: white;
+}
