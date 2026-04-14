@@ -27,3 +27,13 @@ button {
   margin-top: 75px;
   color: white;
 }
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    grid-template-columns:auto;
+
+  }
+
+}
