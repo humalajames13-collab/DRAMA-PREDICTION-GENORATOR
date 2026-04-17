@@ -13,7 +13,14 @@ function getDrama() {
   let random = Math.floor(Math.random() * dramas.length);
   currentDrama = dramas[random];
 
-  document.querySelector(".answer").innerHTML = currentDrama.drama;
+ let answer = document.querySelector(".answer");
+
+answer.style.opacity = 0;
+
+setTimeout(() => {
+  answer.textContent = currentDrama.drama;
+  answer.style.opacity = 1;
+}, 100);
   document.getElementById("solution").innerHTML = "";
 }
 

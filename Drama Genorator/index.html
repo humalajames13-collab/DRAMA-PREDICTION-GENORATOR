@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drama Genorator</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drama Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
 
-  <h1>DRAMA PREDICTION GENORATOR</h1>
-  <h2>WHAT WILL HAPPEN TODAY?</h2>
-<button onclick="getDrama()">LETS FIND OUT</button>
-<button onclick="getSolution()">SHOW SOLUTION</button>
+  <div class="container">
+    <h1> Drama Prediction Generator</h1>
+    <h2>What will happen today?</h2>
 
-<h2 class="answer"></h2>
-<h2 id="solution"></h2>
+    <button onclick="getDrama()">Let's Find Out</button>
+    <button onclick="getSolution()">Show Solution</button>
 
+    <h2 class="answer"></h2>
+    <p id="solution"></p>
+  </div>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>

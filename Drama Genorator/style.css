@@ -1,6 +1,12 @@
 body {
   text-align: center;
   background-color: #00277c;
+  
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
 h1 {
@@ -13,6 +19,12 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+#solution {
+  margin-top: 21px;
+  font-size: 25px;
+  color: #ff0000;
+}
+
 
 button {
   background-color: #ff00c3;
@@ -36,4 +48,7 @@ button {
 
   }
 
+}
+ .answer {
+  transition: all 0.3s ease;
 }
